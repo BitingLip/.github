@@ -1,28 +1,16 @@
 # 🫦 Biting Lip
 
-**Intelligent Automations Platform & Studio**
+**Intelligent Automations Platform**
 
-AI-powered content production workflows — from raw text to fully produced audiobooks.
+## Roadmap
 
-## Repositories
+### STUDIO -- Coming 2026
+AI-powered workflows for content production.
 
-| Repo | Stack | Description |
-|------|-------|-------------|
-| **core** | .NET 9 / C# | Workflow engine, actions, typed DTOs, shared enums, Swagger API |
-| **studio** | React 18 / TypeScript | Production editor — document view, timeline, voice selector, playback |
-| **services** | Python / FastAPI | AI microservices — TTS (NeuTTS), ASR (Whisper), LLM (OpenAI), phonemizer |
-| **platform** | React + FastAPI | Public site at bitinglip.com — landing page, content hub, subscriptions |
+### OFFICE -- Coming 2027
+Agents for continuous operations.
 
-## Quick Start
+### LAB -- Coming 2028
+Research & development for new capabilities.
 
-```powershell
-# Start everything
-./core/start.ps1       # .NET Worker API on :8081
-./studio/start.ps1     # Studio frontend on :5173 + backend on :8080
-./services/start.ps1   # AI services (TTS, ASR, LLM)
-./platform/start.ps1   # Platform site on :3000
-```
 
-## License
-
-[MIT](LICENSE)
